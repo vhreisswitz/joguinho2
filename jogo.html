@@ -8,17 +8,29 @@
 </head>
 <body>
     <h1>Subida Maluca</h1>
-
+    <div id="ranking"></div>
+    <div>
+    <input id="nome1" type="text" placeholder="Nome Player 1">
+    <br>
+    <button id="btnSalvar1">Salvar Nome 1</button>
+    </div>
+    <div>
+    <input id="nome2" type="text" placeholder="Nome Player 2">
+    <br>
+    <button id="btnSalvar2">Salvar Nome 2</button>
+    </div>
     <div class="game">
-    <div class="player1">
-        Pontos Player1: <p id="pontos1"></p>
-        <button id="dado">Rolar Dado</button>
-    </div>
+        <div id="player1" class="player1">
+            <h2>Player 1</h2>
+            Pontos Player1: <p id="pontos1"></p>
+            <button id="dado">Rolar Dado</button>
+        </div>
 
-    <div class="player2">
-        Pontos Player2: <p id="pontos2"></p>
-        <button id="dado2">Rolar Dado</button>
-    </div>
+        <div id="player2" class="player2">
+            <h2>Player 2</h2>
+            Pontos Player2: <p id="pontos2"></p>
+            <button id="dado2">Rolar Dado</button>
+        </div>
     </div>
     <p id='resultado'></p>
     <script src="jogo.js"></script>
