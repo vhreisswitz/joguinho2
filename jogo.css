@@ -1,0 +1,59 @@
+body{
+    text-align: center;
+    background-image: url('https://img.freepik.com/vetores-premium/uma-ilustracao-de-desenho-animado-de-uma-estrada-com-montanhas-e-arvores_1247616-185.jpg?semt=ais_hybrid&w=740&q=80');
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    margin: 0%;
+}
+h1{
+    color: #ffffff;
+    padding: 10px;
+    background-color: #ff2b2b;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+.game{
+    display: inline-block;
+    background-color: #ffe600;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+.player1, .player2{
+    font-style:initial;
+    border-style: double;
+    border-color: rgb(238, 255, 0);
+    color: aliceblue;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius:10px;
+    background-color: #1fa50d;
+}
+button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    animation: pulsar 1s infinite alternate;
+}
+button:hover {
+    background-color: #ff2b2b; /* Darker green on hover */
+}
+@keyframes pulsar{
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
